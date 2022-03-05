@@ -7,3 +7,12 @@ let maleAkanName={
     Friday: "Kofi",
     Saturday: "Kwame"
  }
+ let femaleAkanName={
+    Sunday: "Akosua",        
+    Monday: "Adwoa",
+    Tuesday: "Abenaa",
+    Wednesday: "Akua",
+    Thursday:  "Yaa",
+    Friday: "Afua",
+    Saturday: "Ama"
+}
