@@ -25,3 +25,10 @@ function getDayOfWeek(date) {
 getDayOfWeek("03-05-2022",)
 console.log(getDayOfWeek("03-05-2022", "male"));
 
+   //FINDS MALE ARRAY
+
+   const foundDayArrayMale= Object.getOwnPropertyNames(maleAkanName)
+   console.log(foundDayArrayMale);
+
+let comparisonMale= foundDayArrayMale.find(element => element === getDayOfWeek("03-05-2022"));
+   console.log(comparisonMale);
