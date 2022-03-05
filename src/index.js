@@ -42,3 +42,13 @@ let comparisonFemale= foundDayArrayfemale.find(element => element === getDayOfWe
     console.log(comparisonFemale);
 
         //FUNCTION TO RETURN AKAN NAME 
+
+function final(gender){
+    if(gender == "male"){
+        return (maleAkanName[comparisonMale])
+    }else if(gender == "female"){
+        return (femaleAkanName[comparisonFemale])
+    }
+}
+
+console.log(final('female'))
