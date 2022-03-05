@@ -27,8 +27,18 @@ console.log(getDayOfWeek("03-05-2022", "male"));
 
    //FINDS MALE ARRAY
 
-   const foundDayArrayMale= Object.getOwnPropertyNames(maleAkanName)
-   console.log(foundDayArrayMale);
+const foundDayArrayMale= Object.getOwnPropertyNames(maleAkanName)
+    console.log(foundDayArrayMale);
 
 let comparisonMale= foundDayArrayMale.find(element => element === getDayOfWeek("03-05-2022"));
-   console.log(comparisonMale);
+    console.log(comparisonMale);
+
+    //FINDS FEMALE ARRAY
+
+    const foundDayArrayfemale= Object.getOwnPropertyNames(femaleAkanName)
+    console.log(foundDayArrayfemale);
+
+let comparisonFemale= foundDayArrayfemale.find(element => element === getDayOfWeek("03-05-2022"));
+    console.log(comparisonFemale);
+
+        //FUNCTION TO RETURN AKAN NAME 
