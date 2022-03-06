@@ -29,14 +29,21 @@
             <form action="" method="get" name="myform" class="form">
                 <div class="form">
                     <label for="name">Enter your name: </label>
-                    <input type="text" name="name" id="name" required>
+                    <input type="text" name="name" id="name" >
                 </div>
-                <div class="form">
+                <div class="form" onchange="dateResults()">
                     <label for="birthdate">Enter your birthday: </label>
-                    <input type="date" name="date" value="" id="date" required>
+                    <input type="date" name="date"  id="date"  required>
+                </div>
+                <div>
+                    <select id="gender" onselect="myFunction()">
+                        <option >Gender</option>
+                        <option value="female">Female</option>
+                        <option value="male">Male</option>
+                      </select>
                 </div>
                 <div class="form">
-                    <INPUT type="submit" name="button" value="Click" onClick="formResults(this.form)">
+                    <INPUT type="submit" name="button" value="Click" onclick="formResults()">
                     <!--    <INPUT TYPE="button" NAME="button2" Value="Write" onClick="writeText(this.form)"> -->
                 </div>
             </form>
