@@ -17,48 +17,48 @@ let maleAkanName={
     Saturday: "Ama"
 }
 
-function getDayOfWeek(date) {
-    let dayOfWeek = new Date(date).getDay();
+function formResults() {
+    let dateInput = document.getElementById('date');
+        let dayOfWeek = new Date(dateInput.value).getDay();
+        console.log(dayOfWeek)
         return isNaN(dayOfWeek) ? null : 
         ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'][dayOfWeek];
     }
-getDayOfWeek("03-05-2022",)
-console.log(getDayOfWeek("03-05-2022", "male"));
+console.log(dayOfWeek)
+//    //FINDS MALE ARRAY
 
-   //FINDS MALE ARRAY
+// const foundDayArrayMale= Object.getOwnPropertyNames(maleAkanName)
+//     console.log(foundDayArrayMale);
 
-const foundDayArrayMale= Object.getOwnPropertyNames(maleAkanName)
-    console.log(foundDayArrayMale);
+// let comparisonMale= foundDayArrayMale.find(element => element === formResults(form));
+//     console.log(comparisonMale);
 
-let comparisonMale= foundDayArrayMale.find(element => element === getDayOfWeek("03-05-2022"));
-    console.log(comparisonMale);
+//     //FINDS FEMALE ARRAY
 
-    //FINDS FEMALE ARRAY
+//     const foundDayArrayfemale= Object.getOwnPropertyNames(femaleAkanName)
+//     console.log(foundDayArrayfemale);
 
-    const foundDayArrayfemale= Object.getOwnPropertyNames(femaleAkanName)
-    console.log(foundDayArrayfemale);
+// let comparisonFemale= foundDayArrayfemale.find(element => element === formResults(form));
+//     console.log(comparisonFemale);
 
-let comparisonFemale= foundDayArrayfemale.find(element => element === getDayOfWeek("03-05-2022"));
-    console.log(comparisonFemale);
+//         //FUNCTION TO RETURN AKAN NAME 
 
-        //FUNCTION TO RETURN AKAN NAME 
+// function final(gender){
+//     if(gender == "male"){
+//         document.write(maleAkanName[comparisonMale])
+//     }else if(gender == "female"){
+//         document.write(femaleAkanName[comparisonFemale])
+//     }
+// }
 
-function final(gender){
-    if(gender == "male"){
-        return (maleAkanName[comparisonMale])
-    }else if(gender == "female"){
-        return (femaleAkanName[comparisonFemale])
-    }
-}
+// console.log(final('female'))
 
-console.log(final('female'))
-
-    //GETTING THE ACTIONS FROM THE FORM
-    function formResults (form) {
-        var dateInput = document.getElementById('date');
-        document.write("The difference is " + daydiff + " days");
-    }
-/*    function writeText (form) {
-        form.button2.value = "Have a nice day!"
-    }
-    */
+//     //GETTING THE ACTIONS FROM THE FORM
+//     function formResults (form) {
+//         var dateInput = document.getElementById('date');
+//         document.write("The difference is " + daydiff + " days");
+//     }
+// /*    function writeText (form) {
+//         form.button2.value = "Have a nice day!"
+//     }
+//     */
