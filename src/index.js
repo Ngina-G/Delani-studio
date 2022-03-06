@@ -52,3 +52,13 @@ function final(gender){
 }
 
 console.log(final('female'))
+
+    //GETTING THE ACTIONS FROM THE FORM
+    function formResults (form) {
+        var dateInput = document.getElementById('date');
+        document.write("The difference is " + daydiff + " days");
+    }
+/*    function writeText (form) {
+        form.button2.value = "Have a nice day!"
+    }
+    */
