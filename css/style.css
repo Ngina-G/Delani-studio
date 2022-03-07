@@ -64,3 +64,13 @@
     background-repeat: no-repeat;
     background-position: center;
 }
+
+.portfolo-title{
+    text-align: center;
+}
+.portfolio-image{
+    width: 5vw;
+    margin: 2em;
+    margin-bottom: 3em;
+    grid-template-columns: ;
+}
