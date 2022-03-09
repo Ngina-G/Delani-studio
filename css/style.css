@@ -51,6 +51,7 @@
     background-image: url('/assets/services_icons/design_icon.png');
     background-repeat: no-repeat;
     background-position: center;
+    display: show;
 }
 #development{
     text-align: center;
@@ -69,7 +70,17 @@
     text-align: center;
 }
 .portfolio-image{
-    width: 5vw;
+    width: 20%;
+    height: 20%;
     margin: 2em;
     margin-bottom: 3em;
+}
+
+.portfolio-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    grid-gap: 1px;
+    overflow: hidden;
+    padding: 2em;
 }
