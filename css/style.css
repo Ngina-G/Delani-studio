@@ -9,7 +9,20 @@
     justify-content: center;
     align-items: center;
 }
-
+.logo{
+    padding: 1rem;
+}
+h1{
+    padding: 1rem;
+    color: white;
+}
+h3{
+    padding: 1rem;
+    color: white;
+}
+.mouse{
+    margin-top: 5rem;
+}
 .about-container{
     text-align: center;
     padding: 2em;
@@ -70,24 +83,25 @@
     background-position: center;
 }
 
+.portfolio{
+    margin: 1.5em;
+    padding: 2em;
+
+}
 .portfolio-title{
-    margin-top: 1.5em;
     text-align: center;
 }
-.portfolio-image{
-    width: 20%;
-    height: 20%;
-    margin: 2em;
-    margin-bottom: 3em;
+.portfolio-images{
+    width: 100%;
+    padding: 1em;
+    padding-bottom: 1.5em;
 }
 
 .portfolio-container{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: auto auto auto;
-    grid-gap: 1px;
+    grid-template-columns: auto auto auto auto;
+    grid-auto-flow: row;
     overflow: hidden;
-    padding: 2em;
 }
 
 
@@ -96,6 +110,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     padding: 1em;
+    color: white;
 }
 .form-title{
     text-align: center;
