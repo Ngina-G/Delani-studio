@@ -1,3 +1,7 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
 .banner{
     background-image: url('/assets/backgrounds/h_img.jpg');
     background-position: fixed;
@@ -15,10 +19,15 @@
 h1{
     padding: 1rem;
     color: white;
+    font-weight: 600;
+    font-style: semi-bold;
 }
 h3{
     padding: 1rem;
     color: white;
+    font-size: 1rem;
+    font-weight: 400;
+    font-style: bold;
 }
 .mouse{
     margin-top: 5rem;
