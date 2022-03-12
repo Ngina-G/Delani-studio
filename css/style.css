@@ -60,26 +60,23 @@ h3{
 .wwd-contents{
     display: flex;
     justify-content: center;
+    margin: 4%;
 }
 .wwd-size{
     width: 20vw;
     height: 40vh;
     display: flex;
-    justify-content: center;
-    margin: 4%;
+    justify-content: space-around;
+    margin:0%  4%;
 }
 
-#design{
+.image{
     position: absolute;
-    margin-top: 4%;
+    margin-top: 6%;
+    margin-left: -3%;
 }
-#development{
-    position: absolute;
-    margin-top: 4%;
-}
-#product-man{
-    position: absolute;
-    margin-top: 3%;
+#product-icon{
+    margin-top: 5%;
 }
 .wwd-p{
     display: none;
