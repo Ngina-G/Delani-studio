@@ -1,24 +1,13 @@
-{jQuery('h1').click(function(){
-    alert("This is a heading tag")
+$(".wwd-card").mouseenter(function() {
+    $('.wwd-card').css('cursor', 'pointer')
   });
 
-  jQuery('p').click(function(){
-    alert("This is a paragraph")
+$(".image").click(function() {
+    $(".wwd-p").toggle()
+
   });
 
-  jQuery('img').click(function(){
-    alert("This is an image")
-  });
-}
 
-$(document).ready(function(){
-    $('h1').click(function(){
-        alert("This is a heading tag")
-      });
-    $('p').click(function(){
-        alert("This is a paragraph")
-      });
-    $('img').click(function(){
-        alert("This is an image")
-      });
-})
+  $(".image").click(function() {
+    $("figcaption").css({"font-weight": "bold"})
+  });

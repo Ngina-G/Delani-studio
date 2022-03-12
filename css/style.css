@@ -59,38 +59,32 @@ h3{
 }
 .wwd-contents{
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: center;
 }
 .wwd-size{
-    width: 20%;
-    height: 20%;
+    width: 20vw;
+    height: 40vh;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
+    margin: 4%;
 }
 
 #design{
-    text-align: center;
-    background-image: url('/assets/services_icons/design_icon.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    display: show;
+    position: absolute;
+    margin-top: 4%;
 }
 #development{
-    text-align: center;
-    background-image: url('/assets/services_icons/dev_icon.png');
-    background-repeat: no-repeat;
-    background-position: center;
+    position: absolute;
+    margin-top: 4%;
 }
 #product-man{
-    text-align: center;
-    background-image: url('/assets/services_icons/product_icon.png');
-    background-repeat: no-repeat;
-    background-position: center;
+    position: absolute;
+    margin-top: 3%;
 }
+.wwd-p{
+    display: none;
+}
+
 
 .portfolio{
     margin: 1.5em;
