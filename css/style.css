@@ -8,6 +8,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+    width: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -43,6 +44,7 @@ h3{
     background-repeat: no-repeat;
     background-size: cover;
     height: 65vh;
+    width: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -161,6 +163,7 @@ h3{
     flex-direction: column;
     justify-content: center;
     height: 90vh;
+    width: auto;
     overflow: hidden;
 }
 .row{
@@ -194,6 +197,9 @@ h3{
     color: white;
     width: max-content;
     margin-left: 89%;
+}
+#btn:hover{
+    background-color: rgb(63, 63, 62);
 }
 .form-control::placeholder{
     color: white;
