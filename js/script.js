@@ -27,16 +27,7 @@ $(".container").hover(function() {
 });
 
   //MESSAGE ALERT
-// function myFunction() {
-//   let popup = document.getElementById("popup");
-//   if(document.getElementById("name").value.length == 0){
-//     popup.classList.toggle("show");
-//      document.getElementById("popup").innerHTML = 
-//         "Hi " + document.getElementById("name").value + ". We have received your message and we'll get back to you soon." ;}
-//   else if(document.getElementById("name").value === undefined){
-//         popup.classList.toggle("hide");
-//       }
-//   }
+
 function myFunction() {
   let popup = document.getElementById("popup");
   let empty = document.getElementById("name").value && document.getElementById("email").value
