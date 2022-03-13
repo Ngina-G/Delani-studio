@@ -4,7 +4,7 @@ A landing page created for Delani Studio as a requirement for the Moringa Prep M
 ### By Ngina Gitau @Ngina-G
 
  Landing page
-![Screenshot from 2022-02-27 15-18-59](https://user-images.githubusercontent.com/89702652/155882264-9e3ebc6f-33ea-466b-9886-51662d794de8.png)
+<img  align="center" src="assets/screenshots/landing.png" alt="Input-form" />
 <br/>
 
 #### Check live demonstration <a href="https://ngina-g.github.io/"><strong>here</strong></a>
@@ -15,7 +15,8 @@ This website gives a practiacl view of the use of bootstrap, jquery and the use 
 ### How To
 Upon opening the page, the user is greeted with the landing page. Input user data in the fields in the <strong>form </strong>at the bottom of the Landing page and through the use of mailchimp, the user's email wil be tracked.
 
-<img  align="center" src="src/images/landing.png" alt="landing page" />
+ Input form
+<img  align="center" src="assets/screenshots/form.png" alt="Input-form" />
 
 #### Requirements
 JSFiddle or JavaScript Console.
@@ -50,5 +51,6 @@ Copyright (c) 2022 Ngina
 ### Contact Me
 If you have any questions or comments, 
 conatct me at Nginagitau11@outlook.com
-
-<img width="20%" align="center" src="https://github.com/Ngina-G/Ngina-G.github.io/blob/master/assets/icons/website%20logo%20new%20colors.svg" alt="LOGO" />
+<a href="https://mailchi.mp/6047bb20258d/testingdelani">Mailchimp</a>
+<br/>
+<img width="20%" src="assets/screenshots/website logo new colors.svg" alt="LOGO" style="margin-left: 40%"/>
