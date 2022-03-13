@@ -29,8 +29,10 @@ $(".container").hover(function() {
   //MESSAGE ALERT
 function myFunction() {
   let popup = document.getElementById("popup");
-  popup.classList.toggle("show");
-  document.getElementById("popup").innerHTML = 
-      "Thankyou, " + document.getElementById("name").value + ". We have received your message and we'll get back to you soon." ;
+  if(document.getElementById("name").value == " "){
+    popup.classList.toggle("show");
+      document.getElementById("popup").innerHTML = 
+        "Thankyou, " + document.getElementById("name").value + ". We have received your message and we'll get back to you soon." ;
+  }
 }
  

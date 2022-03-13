@@ -154,7 +154,7 @@
         <div class="form" id="form">
             <h2 class="form-title">CONTACT US</h2>
             <div class="form-image">
-                <form action="" class="form">
+                <form action="" method="get" name="myform" class="form">
                     <div class="row">
                         <div class="col">
                           <input type="text" class="form-control" placeholder="Name..." aria-label="Name" id="name" required>
@@ -167,7 +167,7 @@
                         <textarea class="form-control" id="textArea" placeholder="Your message here..." aria-label="Text area" rows="4" cols="40" required></textarea>
                     </div>  
                     <div>
-                        <button type="submit" class="form-control" id="btn" class="popup" onclick="myFunction()">SEND</button>
+                        <input type="submit" value="SEND" name="button" class="form-control" id="btn" class="popup" onsubmit="myFunction()">
                     </div> 
                     <div class="popup" onclick="myFunction()">
                         <div class="colorImage"></div>
