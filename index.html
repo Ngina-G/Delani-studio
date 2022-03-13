@@ -157,7 +157,7 @@
                 <form action="" class="form">
                     <div class="row">
                         <div class="col">
-                          <input type="text" class="form-control" placeholder="Name..." aria-label="Name" required>
+                          <input type="text" class="form-control" placeholder="Name..." aria-label="Name" id="name" required>
                         </div>
                         <div class="col">
                           <input type="text" class="form-control" placeholder="Email..." aria-label="Email" required>
@@ -167,8 +167,12 @@
                         <textarea class="form-control" id="textArea" placeholder="Your message here..." aria-label="Text area" rows="4" cols="40" required></textarea>
                     </div>  
                     <div>
-                        <button type="submit" class="form-control" id="btn">SEND</button>
+                        <button type="submit" class="form-control" id="btn" class="popup" onclick="myFunction()">SEND</button>
                     </div> 
+                    <div class="popup" onclick="myFunction()">
+                        <div class="colorImage"></div>
+                        <div class="popupbox" id="popup"></div>
+                    </div>
                 </form>
             </div>
         </div>

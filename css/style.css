@@ -177,13 +177,11 @@ h3{
     margin-right: 2em;
 }
 .form-control{
-    border: 2px solid white;
-    border-radius: 1%;
+    border: 1px solid white;
     background-color: transparent;
 }
 #textArea{
-    border: 2px solid white;
-    border-radius: 1%;
+    border: 1px solid white;
     width: 95%;
     height: 50vh;
     margin: 2rem;
@@ -197,10 +195,11 @@ h3{
     width: max-content;
     margin-left: 89%;
 }
-::placeholder{
+.form-control::placeholder{
     color: white;
     opacity: 9;
 }
+
 
 .social-container{
     text-align: center;
@@ -209,3 +208,44 @@ h3{
 .social-p{
     text-align: center;
 }
+
+
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+    .popup .popupbox {
+    visibility: hidden;
+    width: 60vw;
+    height: 10vh;
+    background-color: white;
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 10px 10px;
+    position: relative;
+    z-index: 1;
+    padding: 1em;
+    margin-left: 30%;
+    }
+  .popup .show{
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+  }
+  
+  @-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+  }
+  
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }
+
