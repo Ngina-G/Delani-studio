@@ -20,10 +20,9 @@ $("#productP").click(function() {
 
   //PORTFOLIO SECTION
 
-$(".portfolio-images").hover(function() {
-  $(this).css("filter", "blur(5px)"); 
+$(".container").hover(function() {
   $(".div-port").show()
 }, function() {
-  $(this).css("filter", "none");
   $(".div-port").hide()
 });
+
