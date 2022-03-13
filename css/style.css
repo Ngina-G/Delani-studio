@@ -179,3 +179,7 @@ h3{
     display: flex;
     justify-content: flex-start;
 }
+.social-container{
+    text-align: center;
+    margin: 3%;
+}
