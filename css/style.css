@@ -63,7 +63,7 @@ h3{
     margin: 4%;
 }
 .wwd-size{
-    width: 20vw;
+    width: 50vw;
     height: 40vh;
     display: flex;
     justify-content: space-evenly;
@@ -75,37 +75,58 @@ h3{
     margin-top: 6%;
     margin-left: -3%;
 }
-#product-icon{
+#product-im{
     margin-top: 5%;
 }
-.wwd-p{
+.design-wwd-p{
     display: none;
+    text-align: center;
+}
+.development-wwd-p{
+    display: none;
+    text-align: center;
+}
+.product-wwd-p{
+    display: none;
+    text-align: center;
 }
 
 
 .portfolio{
     margin: 0 6em;
     padding: 2em;
-
 }
 .portfolio-title{
     text-align: center;
 }
-.portfolio-images{
-    width: 100%;
-    padding: 1em;
-    padding-bottom: 1.5em;
-    transition: transform .2s;
-}
-/* .portfolio-images:hover{
-    transform: scale(2);
-} */
-
 .portfolio-container{
     display: grid;
     grid-template-columns: auto auto auto auto;
     grid-auto-flow: row;
     overflow: hidden;
+}
+.portfolio-images{
+    display: block;
+    width: 100%;
+    padding: 1em;
+    padding-bottom: 1.5em;
+    transition: transform .2s;
+}
+.container {
+    position: relative;
+    width: 100%;
+  }
+.div-port{
+    display: none;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 
