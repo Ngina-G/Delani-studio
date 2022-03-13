@@ -45,16 +45,10 @@ function myFunction() {
         alert("Please fill in all the slots of the form!")
         return false;
   } else{
-          popup.classList.toggle("show");
-     document.getElementById("popup").innerHTML = 
-        "Hi " + document.getElementById("name").value + ". We have received your message and we'll get back to you soon." ;
+        popup.classList.toggle("show");
+        document.getElementById("popup").innerHTML = 
+          "Hi " + document.getElementById("name").value + ". We have received your message and we'll get back to you soon." ;
   }
 }
-$("input[type='submit']").click(function subFunction() { return false; });
 
-// function submitForm() {
-//   let frm = document.getElementsByName('contact-form')[0];
-//   frm.submit(); // Submit the form
-//   frm.reset();  // Reset all form data
-//   return false; // Prevent page refresh
-// }
+$("input[type='submit']").click(function subFunction() { return false; });
