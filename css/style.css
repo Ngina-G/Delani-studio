@@ -158,14 +158,6 @@ h3{
     text-align: center;
     color: white;
 }
-.form-image{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 90vh;
-    width: auto;
-    overflow: hidden;
-}
 .row{
     display: flex;
     flex-direction: row;
