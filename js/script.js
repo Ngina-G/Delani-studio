@@ -29,16 +29,16 @@ $(".container").hover(function() {
   //MESSAGE ALERT
 
 function myFunction() {
-  let popup = document.getElementById("popup");
-  let empty = document.getElementById("name").value && document.getElementById("email").value
+  let popup = document.querySelector("#popup");
+  let empty = document.querySelector("#name").value && document.querySelector("#email").value
     if(empty == ""){
         popup.classList.toggle("none");
         alert("Please fill in all the slots of the form!")
         return false;
   } else{
         popup.classList.toggle("show");
-        document.getElementById("popup").innerHTML = 
-          "Hi " + document.getElementById("name").value + ". We have received your message and we'll get back to you soon." ;
+        document.querySelector("#popup").innerHTML = 
+          "Hi " + document.querySelector("#name").value + ". We have received your message and we'll get back to you soon." ;
   }
 }
 
